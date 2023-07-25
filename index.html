@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora IMC</title>
+</head>
+<body>
+    <main class="principal">
+        
+       <div class="tela_secundaria">
+         <!--Peso-->
+         <h2>Calculadora de IMC</h2>
+         <div class="grupo">
+            <label for="peso">Peso</label>
+            <input type="number" name="peso" id="peso" step="0.01" min="0.0" max="300.50" placeholder="Digite seu peso" required>
+        </div>
+
+        <!--Altura-->
+
+        <div class="grupo">
+            <label for="altura">Altura</label>
+            <input type="number" name="altura" id="altura" step="0.01" min="0.0" max="4.5" placeholder="Digite sua altura" required>
+        </div>
+
+        <!--Butões-->
+
+        <div class="butao">
+            <button  type="submit" class="btncalcular" onclick="calcular()">Calcular</button>
+        </div>
+
+        <h3>IMC:0 <br> Classificação de IMC:</h3>
+        <p>Criador: Jânison Silva</p>    
+        
+    </div>
+    </main>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

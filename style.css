@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+}
+body{
+    background-color: rgb(197, 109, 109);
+    display: flex;
+}
+.principal{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tela_secundaria{
+    background-image: linear-gradient(to left,rgb(98, 47, 141), rgb(138, 20, 122),rgb(146, 52, 107));
+    position: relative;
+    width: 300px;
+    height: 400px;
+    padding-top: 30px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+.tela_secundaria h2{
+    color: rgb(236, 199, 199);
+    position: absolute;
+    transform: translateY(20px);
+    top: 0;
+}
+.tela_secundaria .grupo{
+    width: 200px;
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+.grupo input{
+    padding: 6px 10px;
+    border-radius: 15px;
+    border: none;
+    font-size: 1.4rem;
+}
+.grupo input:focus{
+    outline: 0;
+}
+.grupo label{
+    color: rgb(223, 227, 230);
+    font-size: 1.3rem;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+.grupo input::placeholder{
+    font-size: 1rem;
+    padding-left: 35px;
+}
+.butao{
+    margin-top: 25px;
+    font-weight: bold;
+}
+.butao button{
+    padding: 5px 5px;
+    border-radius: 10px;
+    color: rgb(15, 2, 2);
+    background: rgb(231, 222, 222);
+    border: none;
+    margin: 0px 5px;
+    font-size: 1rem;
+}
+textarea{
+    margin-top: 20px;
+    resize: none;
+    text-align: center;
+    background: rgb(202, 175, 175);
+}
+h3{
+    padding-top: 30px;
+    text-align: center;
+    color: rgb(160, 193, 223);
+}
+p{
+    padding-top: 10px;
+    color: rgb(219, 191, 191);
+}
